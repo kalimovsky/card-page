@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --green: #58a497;
+  --yellow: #e09449;
+  --lightgreen1: #a4bdb7;
+  --brown: #8b4448;
+  --gray: gray;
+  --lightgreen2: rgba(175, 164, 189, 0.5);
+  --box: #ededed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: #b0a4bd;;
+}
+.box {
+  width: 350px;
+  height: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  background: #ededed;
+}
+.box1 {
+  margin-top: 10px;
+}
+.content {
+  margin: 15px 2px;
+}
+
+.image img {
+  height: auto;
+  width: 120px;
+  border-radius: 50%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+.level {
+  font-size: 0.7em;
+  background-color: rgba(175, 164, 189, 0.5);
+  width: 50px;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+  display: block;
+  margin: 0px auto 10px;
+}
+.name {
+  font-size: 1.25em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.job_title {
+  font-size: 0.65em;
+  font-weight: bolder;
+  color: gray;
+  margin-top: -2px;
+}
+
+.location {
+  font-size: 0.7em;
+  color: gray;
+  margin: 10px 30px 20px;
+}
+
+.icons {
+  margin: 0px 30px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  font-size: 1em;
+}
+
+.icons button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background: transparent; 
+  font-size: 1em; 
+  padding: 10px;
+  cursor: pointer; 
+}
+
+
+.icons button i {
+  transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.icons button:hover i {
+  transform: scale(1.2); 
+  color: rgb(144, 132, 161);
+}
+
